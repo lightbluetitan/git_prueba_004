@@ -69,14 +69,6 @@ barplot(x,xlab="Cilindros",ylab="Frecuencias",main="Número de Cilindros",col=co
 
 ```
 
-## Bar Chart - ggplot2
-
-**ggplot2** [@ggplot2] es un paquete del lenguaje de programación que nos permite crear gráficos estadísticos de gran calidad, haremos uso de la variable cyl (**cilindros**) para la creación del gráfico estadístico respectivo, como se muestra a continuación.
-
-```{r ggplot2,fig.align='center'}
-ggplot(mtcars,aes(cyl)) + geom_bar(fill=colores) + labs(x="Cillindros",y="Frecuencias",title="Número de Cilindros") + theme_dark()
-```
-
 
 ## Bar Charts - Matplotlib
 
